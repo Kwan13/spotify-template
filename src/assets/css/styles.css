@@ -1,5 +1,6 @@
 .navbar-style {
     background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -32,7 +33,7 @@ nav li {
 
 #session-start {
     width: 100%;
-    height: 590px;
+    height: 620px;
     background-color: #F7CED3;
     text-align: center;
 }
@@ -40,7 +41,7 @@ nav li {
 #session-start h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 #session-start h3 {
@@ -143,6 +144,7 @@ nav li {
 /* ---------- footer ---------- */
 
 footer {
+    display: flex;
     padding: 70px;
     background-color: #000;
 }
@@ -217,5 +219,39 @@ footer ul>li {
     width: 54px;
     margin-left: 10px;
     color: #1DB954;
+}
+
+#footer-nav {
+    margin-top: 80px;
+}
+
+#footer-nav a{
+    color: rgb(145, 148, 150);
+    font-size: 13px;
+    margin-left: 10px;
+    align-items: initial;
+}
+
+#footer-nav a:hover{
+    color: #1DB954;
+    font-size: 13px;
+    margin-left: 10px;
+    align-items: initial;
+}
+
+#br {
+    text-align: right;
+}
+
+#br span {
+    color: rgb(145, 148, 150);
+    font-size: 13px;
+}
+
+@media (min-width: 720px) and (max-width: 800px) {
+    .col-md-2{
+        margin-left: 50px;
+    }
+   
 }
 
