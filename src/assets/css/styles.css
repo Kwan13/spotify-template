@@ -293,4 +293,39 @@ footer ul>li {
         font-family: 'Ubuntu', sans-serif;
         font-size: 12px;
     }
+    /* ---------- session free ---------- */
+    #session-free {
+        background: url(../imagens/bg-free.PNG);
+        background-size: cover;
+        background-position: center;
+        width: auto;
+        height: 350px;
+        text-align: center;
+        color: #FFF;
+    }
+    #session-free h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+    }
+    .btn-free {
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #FFF;
+        padding: 13px 100px;
+        border-radius: 50px;
+        border: 2px solid #1DB954;
+        background-color: #1DB954;
+    }
+    .btn-free:hover {
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #FFF;
+        padding: 15px 110px;
+        border-radius: 50px;
+        border: 2px solid #01DF74;
+        background-color: #01DF74;
+    }
+    .col-md-2 h6 {
+        margin-top: 25px;
+    }
 }
