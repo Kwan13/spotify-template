@@ -225,14 +225,14 @@ footer ul>li {
     margin-top: 80px;
 }
 
-#footer-nav a{
+#footer-nav a {
     color: rgb(145, 148, 150);
     font-size: 13px;
     margin-left: 10px;
     align-items: initial;
 }
 
-#footer-nav a:hover{
+#footer-nav a:hover {
     color: #1DB954;
     font-size: 13px;
     margin-left: 10px;
@@ -248,10 +248,49 @@ footer ul>li {
     font-size: 13px;
 }
 
-@media (min-width: 720px) and (max-width: 800px) {
-    .col-md-2{
+@media (min-width: 720px) and (max-width: 1000px) {
+    .col-md-2 {
         margin-left: 50px;
     }
-   
 }
 
+@media (max-width: 575.98px) {
+    /* ---------- session start ---------- */
+    #session-start h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        padding-top: 130px;
+    }
+    .btn-premium {
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #FFF;
+        padding: 13px 160px;
+        border-radius: 50px;
+        border: 2px solid #1DB954;
+        background-color: #1DB954;
+        margin-bottom: 10px;
+    }
+    .btn-premium:hover {
+        padding: 15px 170px;
+        border: 2px solid #01DF74;
+        background-color: #01DF74;
+    }
+    .btn-about {
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #000;
+        padding: 13px 170px;
+        border-radius: 50px;
+        border: 2px solid #000;
+    }
+    .btn-about:hover {
+        padding: 15px 180px;
+        border-radius: 50px;
+    }
+    #session-start p {
+        margin-top: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 12px;
+    }
+}
