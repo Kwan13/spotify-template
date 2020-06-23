@@ -1,3 +1,5 @@
+/* ---------- navbar ---------- */
+
 .navbar-style {
     background: rgba(0, 0, 0, 0.6);
     padding: 15px;
@@ -28,6 +30,7 @@
 nav li {
     margin-left: 20px;
 }
+
 
 /* ---------- session start ---------- */
 
@@ -99,6 +102,7 @@ nav li {
     color: #000;
 }
 
+
 /* ---------- session free ---------- */
 
 #session-free {
@@ -140,6 +144,7 @@ nav li {
     border: 2px solid #01DF74;
     background-color: #01DF74;
 }
+
 
 /* ---------- footer ---------- */
 
