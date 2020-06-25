@@ -43,6 +43,7 @@ nav li {
 
 #session-start h1 {
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     font-size: 80px;
     padding-top: 130px;
 }
@@ -116,6 +117,7 @@ nav li {
 }
 
 #session-free h1 {
+    font-weight: 900;
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
 }
