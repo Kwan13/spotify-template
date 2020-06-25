@@ -43,6 +43,7 @@ nav li {
 }
 
 #session-start h1 {
+    font-weight: 900;
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
     padding-top: 130px;
@@ -150,5 +151,106 @@ nav li {
     font-family: 'Ubuntu', sans-serif;
     font-size: 24px;
 }
+
+/* ---------- session free ---------- */
+
+#session-offers {
+    padding: 70px 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.offers-description {
+    text-align: center;
+}
+
+#session-offers h1{
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#session-offers span {
+    background-color: rgb(46, 119, 208);
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 900;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#session-offers h3{
+    padding: 20px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 1.75rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#session-offers ul {
+    padding: 0px;
+    list-style: none;
+}
+
+#session-offers li {
+    display: inline-flex;
+}
+
+#session-offers li > p {  
+    padding-left: 10px;
+}
+
+.btn-offers {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    background-color: #1DB954;
+    padding: 12px 70px;
+    font-size: 14px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.btn-offers:hover {
+    background-color: #01DF74;
+    padding: 15px 75px;
+    color: #FFF;
+}
+
+.session-offers-box {
+    border-radius: 10px;
+    height: 875px;
+}
+
+.session-offer-details {
+    font-size: 12px;
+    color:rgb(145, 148, 150);
+}
+
+.btn-align01 {
+    margin-top: 275px;
+}
+
+.btn-align02 {
+    margin-top: 157px;
+}
+
+.btn-align03 {
+    margin-top: 5px;
+}
+
+.btn-align04 {
+    margin-top: 165px;
+}
+
+.terms-offers {
+    color:rgb(145, 148, 150);
+    text-decoration: underline;
+}
+
 
 
