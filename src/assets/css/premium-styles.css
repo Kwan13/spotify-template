@@ -152,7 +152,7 @@ nav li {
     font-size: 24px;
 }
 
-/* ---------- session free ---------- */
+/* ---------- session offers ---------- */
 
 #session-offers {
     padding: 70px 70px;
@@ -252,5 +252,51 @@ nav li {
     text-decoration: underline;
 }
 
+.terms-offers:hover {
+    color:rgb(145, 148, 150);
+    text-decoration: underline;
+}
+
+/* ---------- footer ---------- */
+
+footer {
+    background-color: #000;
+    height: 100px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul>li {
+    float: left;
+}
+
+#footer-nav {
+    padding-top: 20px;
+}
+
+#footer-nav a {
+    color: rgb(145, 148, 150);
+    font-size: 13px;
+    margin-left: 10px;
+    align-items: initial;
+}
+
+#footer-nav a:hover {
+    color: #1DB954;
+    font-size: 13px;
+    margin-left: 10px;
+    align-items: initial;
+}
+
+#br {
+    text-align: right;
+}
+
+#br span {
+    color: rgb(145, 148, 150);
+    font-size: 13px;
+}
 
 
